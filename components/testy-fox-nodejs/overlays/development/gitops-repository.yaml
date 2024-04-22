@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: testy-fox-nodejs-gitops-repository
+spec:
+  url: https://github.com/rhtap-test-organization-jk/testy-fox-nodejs-gitops
